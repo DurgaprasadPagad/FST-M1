@@ -1,5 +1,5 @@
 	
-nums = input("Enter a sequence of comma separated values: ").split(",")
+nums = input("Enter a sequence of numbers comma separated values: ").split(",")
  
 sum = 0
 for num in nums:
