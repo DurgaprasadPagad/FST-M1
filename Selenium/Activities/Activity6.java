@@ -21,13 +21,13 @@ public class Activity6 {
 //			Find the checkbox input element.
 		WebElement checkBox= driver.findElement(By.xpath("//input[@id='checkbox']"));
 		
-//			Check if it is visible on the page.
+//			Check if it is not selected on the page.
 		System.out.println("Is check box selected? "+checkBox.isSelected());
 		
 //			Click the "Remove Checkbox" button.
 		checkBox.click();
 		
-//			Check if it is visible again and print the result.
+//			Check if it is selected again and print the result.
 		System.out.println("Is checkbox selected? "+checkBox.isSelected());
 		
 //			Close the browser.
@@ -36,3 +36,4 @@ public class Activity6 {
 	}
 
 }
+
