@@ -10,11 +10,13 @@
     <parameter name="password" value="password" />
 	<test name="FSTActivities">
 		<classes>
-			<!--<class name="activities.TestActivity1" />
+			<class name="activities.TestActivity1" />
+			<class name="activities.TestActivity2" />
+			<class name="activities.TestActivity3" />
 			<class name="activities.TestActivity4_DemoOne" />
-			<class name="activities.TestActivity4_DemoTwo" />-->
-			<!--<class name="activities.TestActivity5" />-->
-			<!--<class name="activities.TestActivity6" />-->
+			<class name="activities.TestActivity4_DemoTwo" />
+			<class name="activities.TestActivity5" />
+			<class name="activities.TestActivity6" />
 			<class name="activities.TestActivity7" />
 		</classes>
 	</test>
